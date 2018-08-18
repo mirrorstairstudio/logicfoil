@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Projects/LogicFoil/library.cpp" "D:/Projects/LogicFoil/cmake-build-debug/CMakeFiles/LogicFoil.dir/library.cpp.obj"
+  "D:/Projects/LogicFoil/foil/library.cpp" "D:/Projects/LogicFoil/cmake-build-debug/CMakeFiles/LogicFoil.dir/foil/library.cpp.obj"
+  "D:/Projects/LogicFoil/test/test.cpp" "D:/Projects/LogicFoil/cmake-build-debug/CMakeFiles/LogicFoil.dir/test/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

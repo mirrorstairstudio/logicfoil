@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LogicFoil.dir/library.cpp.obj"
+  "CMakeFiles/LogicFoil.dir/foil/library.cpp.obj"
+  "CMakeFiles/LogicFoil.dir/test/test.cpp.obj"
   "libLogicFoil.pdb"
   "libLogicFoil.a"
 )

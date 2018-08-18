@@ -1,3 +1,4 @@
 D:/Projects/LogicFoil/cmake-build-debug/CMakeFiles/LogicFoil.dir
+D:/Projects/LogicFoil/cmake-build-debug/CMakeFiles/LogicFoilTest.dir
 D:/Projects/LogicFoil/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Projects/LogicFoil/cmake-build-debug/CMakeFiles/rebuild_cache.dir

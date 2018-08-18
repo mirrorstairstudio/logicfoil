@@ -56,41 +56,67 @@ include CMakeFiles/LogicFoil.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LogicFoil.dir/flags.make
 
-CMakeFiles/LogicFoil.dir/library.cpp.obj: CMakeFiles/LogicFoil.dir/flags.make
-CMakeFiles/LogicFoil.dir/library.cpp.obj: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LogicFoil.dir/library.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LogicFoil.dir\library.cpp.obj -c D:\Projects\LogicFoil\library.cpp
+CMakeFiles/LogicFoil.dir/foil/library.cpp.obj: CMakeFiles/LogicFoil.dir/flags.make
+CMakeFiles/LogicFoil.dir/foil/library.cpp.obj: ../foil/library.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LogicFoil.dir/foil/library.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LogicFoil.dir\foil\library.cpp.obj -c D:\Projects\LogicFoil\foil\library.cpp
 
-CMakeFiles/LogicFoil.dir/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogicFoil.dir/library.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\LogicFoil\library.cpp > CMakeFiles\LogicFoil.dir\library.cpp.i
+CMakeFiles/LogicFoil.dir/foil/library.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogicFoil.dir/foil/library.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\LogicFoil\foil\library.cpp > CMakeFiles\LogicFoil.dir\foil\library.cpp.i
 
-CMakeFiles/LogicFoil.dir/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogicFoil.dir/library.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\LogicFoil\library.cpp -o CMakeFiles\LogicFoil.dir\library.cpp.s
+CMakeFiles/LogicFoil.dir/foil/library.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogicFoil.dir/foil/library.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\LogicFoil\foil\library.cpp -o CMakeFiles\LogicFoil.dir\foil\library.cpp.s
 
-CMakeFiles/LogicFoil.dir/library.cpp.obj.requires:
+CMakeFiles/LogicFoil.dir/foil/library.cpp.obj.requires:
 
-.PHONY : CMakeFiles/LogicFoil.dir/library.cpp.obj.requires
+.PHONY : CMakeFiles/LogicFoil.dir/foil/library.cpp.obj.requires
 
-CMakeFiles/LogicFoil.dir/library.cpp.obj.provides: CMakeFiles/LogicFoil.dir/library.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/library.cpp.obj.provides.build
-.PHONY : CMakeFiles/LogicFoil.dir/library.cpp.obj.provides
+CMakeFiles/LogicFoil.dir/foil/library.cpp.obj.provides: CMakeFiles/LogicFoil.dir/foil/library.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/foil/library.cpp.obj.provides.build
+.PHONY : CMakeFiles/LogicFoil.dir/foil/library.cpp.obj.provides
 
-CMakeFiles/LogicFoil.dir/library.cpp.obj.provides.build: CMakeFiles/LogicFoil.dir/library.cpp.obj
+CMakeFiles/LogicFoil.dir/foil/library.cpp.obj.provides.build: CMakeFiles/LogicFoil.dir/foil/library.cpp.obj
+
+
+CMakeFiles/LogicFoil.dir/test/test.cpp.obj: CMakeFiles/LogicFoil.dir/flags.make
+CMakeFiles/LogicFoil.dir/test/test.cpp.obj: ../test/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LogicFoil.dir/test/test.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LogicFoil.dir\test\test.cpp.obj -c D:\Projects\LogicFoil\test\test.cpp
+
+CMakeFiles/LogicFoil.dir/test/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogicFoil.dir/test/test.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\LogicFoil\test\test.cpp > CMakeFiles\LogicFoil.dir\test\test.cpp.i
+
+CMakeFiles/LogicFoil.dir/test/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogicFoil.dir/test/test.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\LogicFoil\test\test.cpp -o CMakeFiles\LogicFoil.dir\test\test.cpp.s
+
+CMakeFiles/LogicFoil.dir/test/test.cpp.obj.requires:
+
+.PHONY : CMakeFiles/LogicFoil.dir/test/test.cpp.obj.requires
+
+CMakeFiles/LogicFoil.dir/test/test.cpp.obj.provides: CMakeFiles/LogicFoil.dir/test/test.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/test/test.cpp.obj.provides.build
+.PHONY : CMakeFiles/LogicFoil.dir/test/test.cpp.obj.provides
+
+CMakeFiles/LogicFoil.dir/test/test.cpp.obj.provides.build: CMakeFiles/LogicFoil.dir/test/test.cpp.obj
 
 
 # Object files for target LogicFoil
 LogicFoil_OBJECTS = \
-"CMakeFiles/LogicFoil.dir/library.cpp.obj"
+"CMakeFiles/LogicFoil.dir/foil/library.cpp.obj" \
+"CMakeFiles/LogicFoil.dir/test/test.cpp.obj"
 
 # External object files for target LogicFoil
 LogicFoil_EXTERNAL_OBJECTS =
 
-libLogicFoil.a: CMakeFiles/LogicFoil.dir/library.cpp.obj
+libLogicFoil.a: CMakeFiles/LogicFoil.dir/foil/library.cpp.obj
+libLogicFoil.a: CMakeFiles/LogicFoil.dir/test/test.cpp.obj
 libLogicFoil.a: CMakeFiles/LogicFoil.dir/build.make
 libLogicFoil.a: CMakeFiles/LogicFoil.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLogicFoil.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLogicFoil.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\LogicFoil.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LogicFoil.dir\link.txt --verbose=$(VERBOSE)
 
@@ -99,7 +125,8 @@ CMakeFiles/LogicFoil.dir/build: libLogicFoil.a
 
 .PHONY : CMakeFiles/LogicFoil.dir/build
 
-CMakeFiles/LogicFoil.dir/requires: CMakeFiles/LogicFoil.dir/library.cpp.obj.requires
+CMakeFiles/LogicFoil.dir/requires: CMakeFiles/LogicFoil.dir/foil/library.cpp.obj.requires
+CMakeFiles/LogicFoil.dir/requires: CMakeFiles/LogicFoil.dir/test/test.cpp.obj.requires
 
 .PHONY : CMakeFiles/LogicFoil.dir/requires
 

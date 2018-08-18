@@ -122,32 +122,78 @@ LogicFoil/fast:
 	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/build
 .PHONY : LogicFoil/fast
 
-library.obj: library.cpp.obj
+#=============================================================================
+# Target rules for targets named LogicFoilTest
 
-.PHONY : library.obj
+# Build rule for target.
+LogicFoilTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 LogicFoilTest
+.PHONY : LogicFoilTest
+
+# fast build rule for target.
+LogicFoilTest/fast:
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/build
+.PHONY : LogicFoilTest/fast
+
+foil/library.obj: foil/library.cpp.obj
+
+.PHONY : foil/library.obj
 
 # target to build an object file
-library.cpp.obj:
-	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/library.cpp.obj
-.PHONY : library.cpp.obj
+foil/library.cpp.obj:
+	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/foil/library.cpp.obj
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/foil/library.cpp.obj
+.PHONY : foil/library.cpp.obj
 
-library.i: library.cpp.i
+foil/library.i: foil/library.cpp.i
 
-.PHONY : library.i
+.PHONY : foil/library.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/library.cpp.i
-.PHONY : library.cpp.i
+foil/library.cpp.i:
+	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/foil/library.cpp.i
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/foil/library.cpp.i
+.PHONY : foil/library.cpp.i
 
-library.s: library.cpp.s
+foil/library.s: foil/library.cpp.s
 
-.PHONY : library.s
+.PHONY : foil/library.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/library.cpp.s
-.PHONY : library.cpp.s
+foil/library.cpp.s:
+	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/foil/library.cpp.s
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/foil/library.cpp.s
+.PHONY : foil/library.cpp.s
+
+test/test.obj: test/test.cpp.obj
+
+.PHONY : test/test.obj
+
+# target to build an object file
+test/test.cpp.obj:
+	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/test/test.cpp.obj
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/test/test.cpp.obj
+.PHONY : test/test.cpp.obj
+
+test/test.i: test/test.cpp.i
+
+.PHONY : test/test.i
+
+# target to preprocess a source file
+test/test.cpp.i:
+	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/test/test.cpp.i
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/test/test.cpp.i
+.PHONY : test/test.cpp.i
+
+test/test.s: test/test.cpp.s
+
+.PHONY : test/test.s
+
+# target to generate assembly for a file
+test/test.cpp.s:
+	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/test/test.cpp.s
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/test/test.cpp.s
+.PHONY : test/test.cpp.s
 
 # Help Target
 help:
@@ -156,11 +202,15 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... LogicFoil
+	@echo ... LogicFoilTest
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... library.obj
-	@echo ... library.i
-	@echo ... library.s
+	@echo ... foil/library.obj
+	@echo ... foil/library.i
+	@echo ... foil/library.s
+	@echo ... test/test.obj
+	@echo ... test/test.i
+	@echo ... test/test.s
 .PHONY : help
 
 

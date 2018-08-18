@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = D:\Projects\LogicFoil\cmake-build-debug
 CMakeFiles/LogicFoil.dir/all:
 	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/depend
 	$(MAKE) -f CMakeFiles\LogicFoil.dir\build.make CMakeFiles/LogicFoil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target LogicFoil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target LogicFoil"
 .PHONY : CMakeFiles/LogicFoil.dir/all
 
 # Include target in all.
@@ -75,7 +75,7 @@ all: CMakeFiles/LogicFoil.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LogicFoil.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LogicFoil.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/LogicFoil.dir/rule
@@ -92,6 +92,43 @@ CMakeFiles/LogicFoil.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/LogicFoil.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LogicFoilTest.dir
+
+# All Build rule for target.
+CMakeFiles/LogicFoilTest.dir/all:
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/depend
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles --progress-num=4,5,6 "Built target LogicFoilTest"
+.PHONY : CMakeFiles/LogicFoilTest.dir/all
+
+# Include target in all.
+all: CMakeFiles/LogicFoilTest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LogicFoilTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LogicFoilTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\LogicFoil\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/LogicFoilTest.dir/rule
+
+# Convenience name for target.
+LogicFoilTest: CMakeFiles/LogicFoilTest.dir/rule
+
+.PHONY : LogicFoilTest
+
+# clean rule for target.
+CMakeFiles/LogicFoilTest.dir/clean:
+	$(MAKE) -f CMakeFiles\LogicFoilTest.dir\build.make CMakeFiles/LogicFoilTest.dir/clean
+.PHONY : CMakeFiles/LogicFoilTest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/LogicFoilTest.dir/clean
 
 .PHONY : clean
 
