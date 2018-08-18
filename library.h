@@ -1,0 +1,4 @@
+#ifndef LOGICFOIL_LIBRARY_H
+#define LOGICFOIL_LIBRARY_H
+
+#endif
